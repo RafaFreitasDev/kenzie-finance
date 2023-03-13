@@ -1,0 +1,155 @@
+.list > h4 {
+  font-size: var(--font-size-title-3);
+  font-weight: var(--font-weight-title-234);
+}
+
+.list > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.card {
+  width: 365px;
+  height: 156px;
+  border-radius: 4px;
+  background-color: var(--color-gray-1);
+  border-left: 6px solid var(--color-gray-2);
+  padding: 14px 20px;
+}
+
+.card > div > h3 {
+  font-size: var(--font-size-title-3);
+  font-weight: var(--font-weight-title-234);
+  color: var(--color-gray-4);
+}
+
+.card > div > h4 {
+  font-size: var(--font-size-parag);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: var(--color-gray-3);
+}
+
+.card > span > h4 {
+  font-size: var(--font-size-parag);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: var(--color-gray-4)
+}
+
+.greenCard {
+    width: 365px;
+    height: 156px;
+    border-radius: 4px;
+    background-color: var(--color-gray-1);
+    border-left: 6px solid var(--color-green-1);
+    padding: 14px 20px;
+}
+
+.greenCard > div > h3 {
+    font-size: var(--font-size-title-3);
+    font-weight: var(--font-weight-title-234);
+    color: var(--color-gray-4)
+  }
+  
+  .greenCard > div > h4 {
+    font-size: var(--font-size-parag);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: var(--color-gray-3)
+  }
+  
+  .greenCard > span > h4 {
+    font-size: var(--font-size-parag);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: var(--color-gray-4)
+  }
+
+@media (min-width: 769px) {
+  .lis {
+    align-items: flex-start;
+  }
+  .card {
+    width: 562px;
+    height: 88px;
+    position: relative;
+  }
+  .card > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    width: 450px;
+  }
+  .card > span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    margin-top: 15px;
+  }
+  .card > span > button {
+    position: absolute;
+    top: 13px;
+    right: 15px;
+  }
+  .card > div > h4 {
+    position: absolute;
+    top: 35px;
+    left: 20px;
+  }
+  .card > span > h4 {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+  }
+
+
+
+  .greenCard {
+    width: 562px;
+    height: 88px;
+    position: relative;
+  }
+  .greenCard > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    width: 450px;
+  }
+  .greenCard > span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    margin-top: 15px;
+  }
+  .greenCard > span > button {
+    position: absolute;
+    top: 13px;
+    right: 15px;
+  }
+  .greenCard > div > h4 {
+    position: absolute;
+    top: 35px;
+    left: 20px;
+  }
+  .greenCard > span > h4 {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+  }
+}
+
+@media(max-width:321px){
+  .card {
+    width: 280px;
+  }
+  .greenCard {
+    width: 280px;
+  }
+}

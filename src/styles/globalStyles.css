@@ -1,0 +1,33 @@
+:root {
+    --color-pink-1: #fd377e;
+    --color-pink-2: #e34981;
+    --color-green-1: #03b898;
+    --color-gray-1: #f8f9fa;
+    --color-gray-2: #e9ecef;
+    --color-gray-3: #868e96;
+    --color-gray-4: #212529;
+    --font-size-title-1: 2.4rem;
+    --font-size-title-2: 1.4rem;
+    --font-size-title-3: 1rem;
+    --font-size-title-4: 0.8rem;
+    --font-size-headline: 1rem;
+    --font-size-parag: 0.8rem;
+    --font-weight-title-1: 800;
+    --font-weight-title-234: 700;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+    
+}
+
+button{
+    cursor: pointer;
+}
+
+.dark{
+    background-color: rgba(9,9,9,1);
+    color: rgba(255,255,255,1);
+}
+

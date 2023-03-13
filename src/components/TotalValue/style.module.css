@@ -1,0 +1,31 @@
+.total{
+    height: 100px;
+    width: 365px;
+    border: 1px solid var(--color-gray-2);
+    border-radius: 4px;
+    padding: 20px 24px;
+    margin-top: 16px;
+}
+
+.total>div{
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--font-size-title-3);
+    font-weight: var(--font-weight-title-234);
+}
+
+
+.total>div>span{
+    color: var(--color-pink-1);
+}
+
+.total>h4{
+    font-size: var(--font-size-parag);
+    margin-top: 10px;
+}
+
+@media(max-width:321px){
+    .total{
+        width: 280px;
+    }
+}

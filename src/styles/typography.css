@@ -1,0 +1,29 @@
+.title.one{
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+.title.two{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.title.three{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.title.four{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.headline{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.parag{
+    font-size: 0.8rem;
+    font-weight: 400;
+}

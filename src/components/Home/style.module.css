@@ -1,0 +1,99 @@
+.mainHome{
+    background-color: var(--color-gray-4);
+    height: 100vh;
+    color: rgba(255,255,255,1);
+    padding: 84px 15px;
+    overflow-y: auto;
+
+}
+
+.mainHome>div>h3{
+    font-size: var(--font-size-title-2);
+    font-weight: var(--font-weight-title-234);
+    
+    
+}
+
+.mainHome>div>h3>span{
+    color: var(--color-pink-1);
+    
+}
+
+.mainHome>div>h1{
+    font-size: var(--font-size-title-1);
+    font-weight: var(--font-weight-title-1);
+    margin-top: 30px;
+}
+
+.mainHome>div>h4{
+    font-size: var(--font-size-headline);
+    margin-top: 28px;
+    
+}
+
+.mainHome>div>button{
+    height: 48px;
+    background-color: var(--color-pink-1);
+    color: white;
+    border-radius: 8px;
+    margin-top: 28px;
+    width: 100%;
+}
+
+
+.mainHome>span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+.mainHome>span>div{
+    background-color: aquamarine;
+    height: 300px;
+    width: 300px;
+}
+
+img{
+   width: 100%;
+   margin-top: 10px;
+}
+
+@media(min-width:769px){
+    .mainHome{
+        display: flex;
+    
+    }
+
+    .mainHome>div{
+        width: 40%;
+        padding-left: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mainHome>span{
+        width: 50%;
+    }
+    .mainHome>div>button{
+        width: 241px;
+    }
+    img{
+        width: 80%;
+     }
+}
+
+
+@media(min-width:1000px){
+    .mainHome>div{
+        padding-left: 100px;
+     }
+}
+
+@media(min-width:1400px){
+    .mainHome>div{
+        padding-left: 200px;
+     }
+}
+
